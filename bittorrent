@@ -1,6 +1,6 @@
 #!/bin/bash
 # /etc/init.d/bittorrent
-# version 2012-03-25 (YYYY-MM-DD)
+# version 2012-04-11 (YYYY-MM-DD)
  
 ### BEGIN INIT INFO
 # Provides: bittorrent
@@ -14,12 +14,28 @@
 # Description: Starts the rTorrent BitTorrent client
 ### END INIT INFO
 
+# rtorrent-init-script - An initscript to start rTorrent on CentOS
+# Copyright (C) 2011 - Super Jamie <jamie@superjamie.net>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 # Source function library
 . /etc/rc.d/init.d/functions
 
 ## Settings
 # Username of non-root user who will run the server
-USERNAME="superjamie"
+USERNAME="username"
 # Nice looking name of service for script to report back to users
 SERVERNAME="rTorrent"
 # Filename of server binary
