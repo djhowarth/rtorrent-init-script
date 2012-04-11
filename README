@@ -1,3 +1,5 @@
+rtorrent-init-script by Super Jamie <jamie@superjamie.net>
+
 This is an initscript to run rTorrent on CentOS and Fedora
 
 ## Installation
@@ -52,4 +54,6 @@ This is an initscript to run rTorrent on CentOS and Fedora
   bittorrent connect
   (press ctrl+a then d to disconnect)
 
--- superjamie <jamie@superjamie.net>
+## Licensing
+
+Released under GNU GPL v3 - http://www.gnu.org/licenses/
