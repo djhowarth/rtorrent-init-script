@@ -81,7 +81,7 @@ get_pid() {
 
 # Get the session path from the configfile. REQUIRES ABSOLUTE PATH! eg: session = /home/username/.session
 get_session() {
-  SESSIONPATH=`cat ${CONFIGFILE} | grep "^[[:space:]]*session[[:space:]]*=" | sed "s/^[[:space:]]*session[[:space:]]*=[[:space:]]*//"`
+  SESSIONPATH=`cat ${CONFIGPATH} | grep "^[[:space:]]*session[[:space:]]*=" | sed "s/^[[:space:]]*session[[:space:]]*=[[:space:]]*//"`
 }
 
 # Check the rTorrent binary is in the path, check the config file is readable, check the session dir is readable
