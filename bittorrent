@@ -1,6 +1,6 @@
 #!/bin/bash
 # /etc/init.d/bittorrent
-# version 2012-04-11 (YYYY-MM-DD)
+# version 2012-07-17 (YYYY-MM-DD)
  
 ### BEGIN INIT INFO
 # Provides: bittorrent
